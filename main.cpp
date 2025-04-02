@@ -1,49 +1,36 @@
 #include <cmath>
+#include <cstring>
+#include <ctime>
 #include "txlib.h"
 
-const int WIDTH = 800;
-const int HEIGHT = 600;
-const int MAX_ITER = 256;
-const int R_MAX = 4;
-static COLORREF colorBuffer[HEIGHT][WIDTH];
+#define GROUP 8
 
+const int WIDTH    = 800;
+const int HEIGHT   = 600;
+const int MAX_ITER = 256;
+const float R_MAX  = 4.0f;
+
+typedef struct
+{
+    float x[GROUP];
+    float y[GROUP];
+    int iter[GROUP];
+} PointGroup;
+
+void draw_mandelbrot();
+void count_mandelbrot_grouped(COLORREF* colorBuffer);
+void display(COLORREF* colorBuffer);
+void run_time();
+void mandelbrot(PointGroup *pixel);
 RGBQUAD get_color(int iter);
-int mandelbrot(float x0, float y0);
-void run_time(void);
-void draw_mandelbrot (void);
-void count_mandelbrot(void);
-void display(void);
 
 int main(const int argc, const char* argv[])
 {
-    if (argc > 1 && strcmp(argv[1], "--graphics" ) == 0)
-    {
-        draw_mandelbrot ();
-    }
+    if (argc > 1 && strcmp(argv[1], "--graphics") == 0)
+        draw_mandelbrot();
     else
-    {
         run_time();
-    }
     return 0;
-}
-
-
-int mandelbrot(float x0, float y0)
-{
-    float x = 0, y = 0;
-    int iter = 0;
-    while (iter < MAX_ITER)
-    {
-        float x2 = x * x;  // Re(z_n^2)
-        float y2 = y * y;  // Im(z_n^2)
-        if (x2 + y2 >= R_MAX) break;  // |z_n| ≥ 2
-
-        float xy = x * y;
-        x = x2 - y2 + x0;  // Re(z_(n+1)) = Re(z_n^2) + Re(c)
-        y = 2 * xy + y0;   // Im(z_(n+1)) = Im(z_n^2) + Im(c)
-        iter++;
-    }
-    return iter;
 }
 
 RGBQUAD get_color(int iter)
@@ -57,55 +44,126 @@ RGBQUAD get_color(int iter)
     return RGBQUAD{(BYTE)b, (BYTE)g, (BYTE)r};
 }
 
-void draw_mandelbrot (void)
+
+
+void display(COLORREF* colorBuffer)
 {
-    count_mandelbrot();
-    display();
-}
+    assert(colorBuffer);
 
-void count_mandelbrot(void)
-{
-    float xMin = -2.5f, xMax = 1.5f;
-    float yMin = -1.5f, yMax = 1.5f ;
-
-    for (int py = 0; py < HEIGHT; py++)
-    {
-        for (int px = 0; px < WIDTH; px++)
-        {
-            float x0 = xMin + (xMax - xMin) * (float)px / (float)WIDTH;
-            float y0 = yMin + (yMax - yMin) * (float)py / (float)HEIGHT;
-
-            int iter = mandelbrot(x0, y0);
-            RGBQUAD quad = get_color(iter);
-            colorBuffer[py][px] = RGB(quad.rgbRed, quad.rgbGreen, quad.rgbBlue);
-        }
-    }
-}
-
-
-void display(void)
-{
     txCreateWindow(WIDTH, HEIGHT);
 
-    for (int py = 0; py < HEIGHT; py++)
-    {
-        for (int px = 0; px < WIDTH; px++)
-        {
-            txSetPixel(px, py, colorBuffer[py][px]);
+    for (int y = 0; y < HEIGHT; y++) {
+        for (int x = 0; x < WIDTH; x++) {
+            txSetPixel(x, y, colorBuffer[y * WIDTH + x]);
         }
     }
 
     txTextCursor(false);
+    txSleep(10000);
+}
+
+void draw_mandelbrot()
+{
+    COLORREF* colorBuffer = (COLORREF*)calloc(HEIGHT * WIDTH, sizeof(COLORREF));
+    if (!colorBuffer) return;
+
+    count_mandelbrot_grouped(colorBuffer);
+    display(colorBuffer);
+
+    free(colorBuffer);
+}
+
+void run_time()
+{
+    COLORREF* colorBuffer = (COLORREF*)calloc(HEIGHT * WIDTH, sizeof(COLORREF));
+    if (!colorBuffer) return;
+
+    clock_t start = clock();
+    count_mandelbrot_grouped(colorBuffer);
+    double time = (double)(clock() - start) / CLOCKS_PER_SEC;
+    printf("Render time: %.3f seconds\n", time);
+
+    free(colorBuffer);
 }
 
 
-void run_time(void)
+void mandelbrot(PointGroup *pixel)
 {
-    clock_t start = clock();
+    float x[GROUP] = {0}, y[GROUP] = {0};
+    bool active[GROUP] = {true, true, true, true, true, true, true, true};
+    int iter = 0;
+    unsigned int active_count = 0;
 
-    count_mandelbrot();
+    for (; iter < MAX_ITER; iter++)
+    {
 
-    clock_t end = clock();
-    double render_time = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("Render time: %.3f seconds\n", render_time);
+        for (int i = 0; i < GROUP; i++)
+        {
+            if (!active[i]) continue;
+
+            float x2 = x[i] * x[i];
+            float y2 = y[i] * y[i];
+            float xy = x[i] * y[i];
+
+            if (x2 + y2 >= R_MAX)
+            {
+                active[i] = false;
+                pixel->iter[i] = iter;
+                continue;
+            }
+
+
+            x[i] = x2 - y2 + pixel->x[i];
+            y[i] = 2 * xy + pixel->y[i];
+            active_count++;
+        }
+
+        if (active_count == 0) break;
+    }
+
+
+    for (int i = 0; i < GROUP; i++)
+    {
+        if (active[i]) pixel->iter[i] = MAX_ITER;
+    }
+
+    return ;
+}
+
+void count_mandelbrot_grouped(COLORREF* colorBuffer)
+{
+    float xMin = -2.5f, xMax = 1.5f;
+    float yMin = -1.5f, yMax = 1.5f;
+
+    for (int py = 0; py < HEIGHT; py++)
+    {
+        for (int px = 0; px < WIDTH; px += GROUP)
+        {
+            PointGroup pixel;
+
+
+            for (int i = 0; i < GROUP; i++)
+            {
+                int curr_px = px + i;
+                if (curr_px >= WIDTH) curr_px = WIDTH - 1;
+                float x_step = (xMax - xMin) / WIDTH;
+                float y_step = (yMax - yMin) / HEIGHT;
+                pixel.x[i] = xMin +  (float)curr_px * x_step;
+                pixel.y[i] = yMin + (float)py * y_step;
+            }
+
+
+            mandelbrot(&pixel);
+
+
+            for (int i = 0; i < GROUP; i++)
+            {
+                int curr_px = px + i;
+                if (curr_px >= WIDTH) continue;
+
+                RGBQUAD quad = get_color(pixel.iter[i]);
+                colorBuffer[py * WIDTH + curr_px] = RGB(quad.rgbRed, quad.rgbGreen, quad.rgbBlue);
+            }
+        }
+    }
 }
