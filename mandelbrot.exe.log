@@ -61,3 +61,1805 @@ Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
 Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041B60E. Попытка прочесть данные по адресу 0xFFFFFFFF. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043D71C (32-bit), Flags: Cmdre0, Thread: 0x6FD0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:20:55, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:21:02
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041B60E. Попытка прочесть данные по адресу 0xFFFFFFFF. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043D71C (32-bit), Flags: Cmdre0, Thread: 0x6FD0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:20:55, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:21:02
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F897. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x57F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:23:13, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:23:17
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F877. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x15CC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:24:50, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:24:54
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8EE. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x4CA8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:34:51, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:34:57
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040E2BD. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045D50C (32-bit), Flags: Cmdre0, Thread: 0x6568 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:40:22, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:40:26
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F968. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x42AC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:41:09, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:41:14
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F9B8. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x5D0C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  2 2025 23:42:15, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 02 2025 23:42:20
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8C3. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8228 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:10:50, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:11:05
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8C3. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8B30 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:44:53, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:44:58
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F913. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x5A70 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:47:01, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:47:04
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8E3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:47:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:47:48
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8E3C (Main), GetLastError(): 8 (Недостаточно ресурсов памяти для обработки этой команды), errno: 12 (Visual C++ CRT: Not enough memory to complete call to strerror.). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:47:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:47:48
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#3: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8E3C (Main), GetLastError(): 8 (Недостаточно ресурсов памяти для обработки этой команды), errno: 12 (Visual C++ CRT: Not enough memory to complete call to strerror.). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:47:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:47:49
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041CE32. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043F71C (32-bit), Flags: Cmdre0, Thread: 0x62C4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:49:27, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:49:31
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F90D. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8878 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 00:51:41, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 00:51:45
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8BD. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x6A68 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 01:22:39, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 01:22:42
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x4D90 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 01:38:14, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 01:38:33
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x4D90 (Main), GetLastError(): 8 (Недостаточно ресурсов памяти для обработки этой команды), errno: 12 (Visual C++ CRT: Not enough memory to complete call to strerror.). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 01:38:14, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 01:38:33
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: signal (22, 0x00): SIGABRT: Аварийное завершение программы, вызвана функция abort(). 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7791212B. Попытка прочесть данные по адресу 0x00FDC75B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#3: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x4D90 (Main), GetLastError(): 8 (Недостаточно ресурсов памяти для обработки этой команды), errno: 12 (Visual C++ CRT: Not enough memory to complete call to strerror.). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 01:38:14, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 01:38:33
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F7E7. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x7334 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 01:58:32, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 01:58:37
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F787. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x88BC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:08:10, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:08:13
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041CD87. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043F71C (32-bit), Flags: Cmdre0, Thread: 0x7868 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:08:36, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:08:39
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F781. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1DB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:19:55, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:19:59
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F721. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x7398 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:21:27, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:21:31
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041CD08. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043F71C (32-bit), Flags: Cmdre0, Thread: 0x864 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:21:58, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:22:01
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F76B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x3690 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:22:19, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:22:23
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F77B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1C38 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:26:00, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:26:04
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F78B. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1D74 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 02:26:58, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 02:27:01
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F740. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0xC34 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:11:11, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:11:23
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041CDB7. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043F71C (32-bit), Flags: Cmdre0, Thread: 0x3108 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:13:59, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:14:06
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041CDB7. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043F71C (32-bit), Flags: Cmdre0, Thread: 0x87BC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:13:59, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:14:33
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041B6D5. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043D71C (32-bit), Flags: Cmdre0, Thread: 0x8B98 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:27:14, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:27:18
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041B8D6. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043D71C (32-bit), Flags: Cmdre0, Thread: 0x28E0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:30:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:30:53
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0041E65C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0044071C (32-bit), Flags: Cmdre0, Thread: 0x78F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:33:05, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:33:09
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F82F. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x6BEC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 13:52:51, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 13:52:58
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F871. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x7B34 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:10:25, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:10:28
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F97F. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x3A44 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:12:52, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:12:55
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F995. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8518 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:30:30, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:30:36
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8B9. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x694 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:39:00, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:39:04
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8CE. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x5810 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:42:33, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:42:38
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F757. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1F54 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:44:53, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:44:58
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F750. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x2850 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:45:31, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:45:42
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F79E. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x77AC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:46:28, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:46:32
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F79E. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x643C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:47:03, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:47:11
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F79E. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x3F00 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:49:30, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:49:38
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F74C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x30C0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 14:51:54, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 14:51:58
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F74C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x8A00 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 15:10:22, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 15:10:26
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040FF21. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x855C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 15:52:05, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 15:52:08
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: #1: {ИСКЛЮЧЕНИЕ}
+Множественные ловушки с плавающей точкой. (0xC00002B5) при выполнении кода по адресу 0x0040F8C0. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1750 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 15:58:16, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 15:58:20
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: #1: {ИСКЛЮЧЕНИЕ}
+Множественные ловушки с плавающей точкой. (0xC00002B5) при выполнении кода по адресу 0x0040F8C0. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x1750 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 15:58:16, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 15:58:20
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: Множественные ошибки с плавающей точкой.
+
+#1: Исключение STATUS_FLOAT_MULTIPLE_FAULTS (0xC00002B4) при выполнении кода по адресу 0x0040F8C5. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0x3190 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 16:02:58, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 16:03:03
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: #1: {ИСКЛЮЧЕНИЕ}
+Множественные ловушки с плавающей точкой. (0xC00002B5) при выполнении кода по адресу 0x0040F8DE. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0xC48 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 16:33:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 16:33:49
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe,
+
+ВНЕЗАПНО: #1: {ИСКЛЮЧЕНИЕ}
+Множественные ловушки с плавающей точкой. (0xC00002B5) при выполнении кода по адресу 0x0040F8DE. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0045E50C (32-bit), Flags: Cmdre0, Thread: 0xC48 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  3 2025 16:33:46, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 03 2025 16:33:49
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
