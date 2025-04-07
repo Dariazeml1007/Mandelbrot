@@ -1863,3 +1863,34 @@ Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
 Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe, файл: txlib.h, строка: 8740, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0043E71C (32-bit), Flags: CMdRe0, Thread: 0x2048 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	txlib.h
+Compiled:	Apr  7 2025 16:09:00, GNU g++ 6.3.0, std=201402L, MinGW Runtime 5.0, 32-bit, Debug
+Started:	Apr 07 2025 16:09:08
+
+Run file:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot\mandelbrot.exe
+Directory:	C:\Users\Дарья\Desktop\Tasks_с\Mandelbrot
+
+--------------------------------------------------
