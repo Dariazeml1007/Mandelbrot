@@ -42,8 +42,7 @@
 - x[i] = x[i - 1]^2 - y[i - 1]^2 + x[0]
 - y[i] = 2 * x[i - 1] * y[i - 1] + y[0]
 
-
-1. Базовый вариант (Simple)
+### 1. Базовый вариант (Simple)
 Поточечный расчет без оптимизаций:
 
 ```c
@@ -58,7 +57,7 @@ int mandelbrot(float x0, float y0, int count_iter) {
     return count_iter;
 }
 ```
-2. Групповая обработка (Grouped)
+### 2. Групповая обработка (Grouped)
 Обработка 8 точек одновременно:
 
 ```c
@@ -80,7 +79,7 @@ void mandelbrot(PointGroup *group) {
     }
 }
 ```
-3. Векторизация AVX (Intrinsics)
+### 3. Векторизация AVX (Intrinsics)
 Использование 256-битных регистров:
 
 ```c
