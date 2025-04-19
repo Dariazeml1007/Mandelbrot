@@ -156,9 +156,9 @@ void mandelbrot(PointGroup *group) {
 ### 3. Векторизация AVX (Intrinsics)
 Использование 256-битных регистров:
 
--O2:  1.20  сек [███████]
+-O2:  1.20  сек ███████
 
--O3:  1.19  сек [███████]
+-O3:  1.19  сек ███████
 
 ```c
 void mandelbrot_avx(PointGroup* group) {
