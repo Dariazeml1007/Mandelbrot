@@ -117,6 +117,8 @@ int mandelbrot(float x0, float y0, int count_iter) {
 
 ### 2. Групповая обработка (Grouped)
 
+[Grouped.cpp](Grouped_Mandelbrot.cpp)
+
 Обработка 8 точек одновременно:
 
 -O2:   █████████████████ (14.17 сек )
@@ -156,6 +158,9 @@ void mandelbrot(PointGroup *group) {
 
 
 ### 3. Векторизация AVX (Intrinsics)
+
+[AVX.cpp](AVX_Mandelbrot.cpp)
+
 Использование 256-битных регистров:
 
 -O2:  1.20  сек ███████
